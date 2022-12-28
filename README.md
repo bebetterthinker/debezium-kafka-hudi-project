@@ -68,6 +68,7 @@ python python-producer-posgres.py
 
 
 #### Step 5 : Run your Glue Notebooks and Query your processed data 
+* https://github.com/soumilshah1995/debezium-kafka-hudi-project/blob/main/hudi%20(1).ipynb
 
 ![image](https://user-images.githubusercontent.com/39345855/209749394-9a1fc8f7-6437-43f7-b2b3-44855428a8b9.png)
 
