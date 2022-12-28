@@ -67,6 +67,9 @@ python python-producer-posgres.py
 ![image](https://user-images.githubusercontent.com/39345855/209747806-8e04086f-bb34-45a0-a9b9-d23a3faf4b54.png)
 
 
+#### Step 5 : Run your Glue Notebooks and Query your processed data 
+
+![image](https://user-images.githubusercontent.com/39345855/209749394-9a1fc8f7-6437-43f7-b2b3-44855428a8b9.png)
 
 
 
