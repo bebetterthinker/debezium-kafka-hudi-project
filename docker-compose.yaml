@@ -8,8 +8,8 @@ services:
       ADV_HOST: 127.0.0.1         # Change to 192.168.99.100 if using Docker Toolbox
       RUNTESTS: 0                 # Disable Running tests so the cluster starts faster
       CONNECTORS: debezium-mysql,s3,debezium-postgres
-      AWS_ACCESS_KEY_ID: "AKIAQUOMZI4GDEYLRZVL"
-      AWS_SECRET_ACCESS_KEY: "k0Qqy+2TS1U/NjgbxzMC1AYCyTeIIgddh1i5OvGU"
+      AWS_ACCESS_KEY_ID: "ACCESS KEY GOES HERE "
+      AWS_SECRET_ACCESS_KEY: "SECRET KEY  GOES HERE "
       SAMPLEDATA: 0
     ports:
       - 2181:2181                   # Zookeeper
@@ -49,7 +49,7 @@ services:
     environment:
       SERVICES : s3:5000
       HOSTNAME : aws-s3
-      AWS_ACCESS_KEY_ID : "AKIAQUOMZI4GDEYLRZVL"
-      AWS_SECRET_ACCESS_KEY : "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"
+      AWS_ACCESS_KEY_ID :  "ACCESS KEY GOES HERE "
+      AWS_SECRET_ACCESS_KEY :  "SECRET KEY GOES HERE "
     ports:
       - "5000:5000"
